@@ -1,0 +1,13 @@
+[package]
+name = "akari-bot"
+version = "0.1.0"
+authors = [""]
+edition = "2018"
+
+[[bin]]
+name = "akari-bot"
+path = "src/main.rs"
+
+[dependencies]
+serenity = "0.10"
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
