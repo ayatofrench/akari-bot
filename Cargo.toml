@@ -9,5 +9,8 @@ name = "akari-bot"
 path = "src/main.rs"
 
 [dependencies]
-serenity = "0.10"
-tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+dotenv = "0.15"
+tracing = "0.1.23"
+tracing-subscriber = "0.2"
+tokio = { version = "1.13.0", features = ["full"] }
+serenity = "0.10.9"
